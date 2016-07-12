@@ -1,0 +1,4 @@
+--liquibase formatted sql
+
+--changeset 62971:1
+ALTER TABLE SALESORDER_PAYMENT ADD INSTALLMENTS NUMBER(3);

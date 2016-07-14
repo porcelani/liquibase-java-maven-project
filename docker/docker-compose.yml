@@ -1,5 +1,0 @@
-oralce:
-    build: .
-    container_name: oracle-container
-    ports:
-        - "1521:1521"

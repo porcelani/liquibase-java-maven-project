@@ -1,3 +1,4 @@
 /.idea/
 /anymarket-liquibase.iml
 /target
+/liquibase-java-maven-project.iml

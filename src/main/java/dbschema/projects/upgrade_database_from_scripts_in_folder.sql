@@ -1,4 +1,4 @@
 --liquibase formatted sql
 
---changeset 62971:1
-ALTER TABLE SALESORDER_PAYMENT ADD INSTALLMENTS NUMBER(3);
+--changeset upgrade_database_from_scripts_in_folder:1
+ALTER TABLE PERSON ADD AGE NUMBER(3);

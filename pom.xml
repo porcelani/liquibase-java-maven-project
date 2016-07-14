@@ -30,7 +30,7 @@
     <profiles>
 
         <profile>
-            <id>updateDocker</id>
+            <id>update</id>
             <build>
                 <plugins>
                     <plugin>
@@ -56,7 +56,7 @@
 
 
         <profile>
-            <id>changelogSyncDocker</id>
+            <id>changelogSync</id>
             <build>
                 <plugins>
                     <plugin>

@@ -1,6 +1,6 @@
 FROM       wnameless/oracle-xe-11g
 
-ADD        stuff/oracle /assets
+ADD        /assets /assets
 
 RUN	       chmod +x /assets/install.sh
 RUN	       chmod +x /assets/create_user.sql
